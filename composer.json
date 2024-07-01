@@ -1,0 +1,20 @@
+{
+    "name": "sysuser_3/api",
+    "description": "API SLIM 4 MVC",
+    "license": "VisualAndKo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VisualAndKo"
+        }
+    ],
+    "require": {
+        "slim/psr7": "^1.6",
+        "slim/slim": "4.*",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
